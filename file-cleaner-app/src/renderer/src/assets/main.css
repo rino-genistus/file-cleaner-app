@@ -1,0 +1,45 @@
+@import './base.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0edf6;
+  color: #3d3550;
+  font-family: 'Nunito', sans-serif;
+  user-select: none;
+  font-family: 'Inter', sans-serif;
+  user-select: none;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 85%;
+  font-weight: 600;
+  padding: 3px 5px;
+  border-radius: 4px;
+  background-color: #e8e2f5;
+}
+
+.header {
+  background: linear-gradient(135deg, #e8e2f5, #ddd6f0);
+  color: #3d3550;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid #cec7e8;
+  width: 100%;
+  text-align: center;
+}
